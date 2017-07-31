@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>3</activeConfTypeElem>
+        <activeConfIndexElem>1</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="hcore2017">
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc/impl/codegen/sync_posix.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/c_ares/dns_resolver_ares.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/plugin_registry/grpc_cronet_plugin_registry.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/third_party/cares/cares/ares_setup.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/nbproject/Makefile-Debug.mk</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/ext/proto_server_reflection.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/secure_credentials.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/gens/src/proto/grpc/status/status.pb.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/transport/chttp2/client/insecure/channel_create.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/plugin_registry/grpc_plugin_registry.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/c_ares/grpc_ares_ev_driver.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/client_channel_plugin.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc/impl/codegen/grpc_types.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/third_party/cares/cares/ares.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/census/resource.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/client_context.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc/grpc.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/README.md</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/lib/surface/init.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/gens/src/proto/grpc/health/v1/health.pb.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/census/base_resources.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/common/completion_queue_cc.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/client_channel.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/sockaddr/sockaddr_resolver.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/census/window_stats.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/gens/src/proto/grpc/reflection/v1alpha/reflection.pb.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/c_ares/grpc_ares_ev_driver_posix.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc++/impl/codegen/grpc_library.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/create_channel_internal.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/plugin_registry/grpc_unsecure_plugin_registry.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/gens.bak/src/proto/grpc/status/status.pb.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/lib/support/sync_posix.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/native/dns_resolver.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc++/impl/grpc_library.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/README.md</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/gens/src/proto/grpc/status/status.pb.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/native/README.md</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver_factory.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/parse_address.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/census/base_resources.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver_factory.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/codegen/codegen_init.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/third_party/nanopb/pb_decode.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/create_channel.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver_registry.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/resolver/dns/c_ares/grpc_ares_wrapper.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc/impl/codegen/port_platform.h</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/create_channel_internal.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/core/ext/filters/client_channel/uri_parser.c</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/client/channel_cc.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/src/cpp/common/channel_arguments.cc</file>
+            <file>file:/home/trungthanh/src/cpp/hcore2017/contribs/LibgRpc/include/grpc++/create_channel.h</file>
+        </group>
+    </open-files>
+</project-private>
