@@ -1,4 +1,4 @@
 [submodule "sources/grpc"]
 	path = sources/grpc
 	url = https://github.com/grpc/grpc.git
-	branch = 1.4.2
+	branch = v1.22.0
