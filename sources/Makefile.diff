@@ -1,0 +1,44 @@
+diff --git a/Makefile b/Makefile
+index d80d72b7d9..9d95bbc62d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -824,7 +824,8 @@ PC_LIBS_GRPCXX =
+ 
+ CPPFLAGS := -Ithird_party/googletest/googletest/include -Ithird_party/googletest/googlemock/include $(CPPFLAGS)
+ 
+-PROTOC_PLUGINS_ALL = $(BINDIR)/$(CONFIG)/grpc_cpp_plugin $(BINDIR)/$(CONFIG)/grpc_csharp_plugin $(BINDIR)/$(CONFIG)/grpc_node_plugin $(BINDIR)/$(CONFIG)/grpc_objective_c_plugin $(BINDIR)/$(CONFIG)/grpc_php_plugin $(BINDIR)/$(CONFIG)/grpc_python_plugin $(BINDIR)/$(CONFIG)/grpc_ruby_plugin
++PROTOC_PLUGINS_ALL = $(BINDIR)/$(CONFIG)/grpc_cpp_plugin $(BINDIR)/$(CONFIG)/grpc_csharp_plugin $(BINDIR)/$(CONFIG)/grpc_node_plugin $(BINDIR)/$(CONFIG)/grpc_objective_c_plugin $(BINDIR)/$(CONFIG)/grpc_php_plugin $(BINDIR)/$(CONFIG)/grpc_python_plugin 
++#$(BINDIR)/$(CONFIG)/grpc_ruby_plugin
+ PROTOC_PLUGINS_DIR = $(BINDIR)/$(CONFIG)
+ 
+ ifeq ($(HAS_SYSTEM_PROTOBUF),true)
+@@ -1221,7 +1222,8 @@ grpc_node_plugin: $(BINDIR)/$(CONFIG)/grpc_node_plugin
+ grpc_objective_c_plugin: $(BINDIR)/$(CONFIG)/grpc_objective_c_plugin
+ grpc_php_plugin: $(BINDIR)/$(CONFIG)/grpc_php_plugin
+ grpc_python_plugin: $(BINDIR)/$(CONFIG)/grpc_python_plugin
+-grpc_ruby_plugin: $(BINDIR)/$(CONFIG)/grpc_ruby_plugin
++grpc_ruby_plugin: 
++##$(BINDIR)/$(CONFIG)/grpc_ruby_plugin
+ grpc_tool_test: $(BINDIR)/$(CONFIG)/grpc_tool_test
+ grpclb_api_test: $(BINDIR)/$(CONFIG)/grpclb_api_test
+ grpclb_end2end_test: $(BINDIR)/$(CONFIG)/grpclb_end2end_test
+@@ -3198,7 +3200,8 @@ install-plugins: $(PROTOC_PLUGINS)
+ 	$(Q) $(INSTALL) -d $(prefix)/bin
+ 	$(Q) $(INSTALL) $(BINDIR)/$(CONFIG)/grpc_python_plugin $(prefix)/bin/grpc_python_plugin
+ 	$(Q) $(INSTALL) -d $(prefix)/bin
+-	$(Q) $(INSTALL) $(BINDIR)/$(CONFIG)/grpc_ruby_plugin $(prefix)/bin/grpc_ruby_plugin
++
++##	$(Q) $(INSTALL) $(BINDIR)/$(CONFIG)/grpc_ruby_plugin $(prefix)/bin/grpc_ruby_plugin
+ 
+ install-grpc-cli: grpc_cli
+ 	$(E) "[INSTALL] Installing grpc cli"
+@@ -7460,7 +7463,8 @@ LIBGRPC_PLUGIN_SUPPORT_SRC = \
+     src/compiler/objective_c_generator.cc \
+     src/compiler/php_generator.cc \
+     src/compiler/python_generator.cc \
+-    src/compiler/ruby_generator.cc \
++
++#    src/compiler/ruby_generator.cc \
+ 
+ PUBLIC_HEADERS_CXX += \
+     include/grpc++/impl/codegen/config_protobuf.h \
